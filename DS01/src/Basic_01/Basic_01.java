@@ -15,9 +15,9 @@ public class Basic_01 {
 		int num2 = sc.nextInt();
 		
 		//print result 
-		System.out.print("Sum : " + (num1+num2)+"\r");
-		System.out.print("Sub : " + (num1-num2)+"\r");
-		System.out.print("Mul : " + (num1*num2)+"\r");
+		System.out.println("Sum : " + (num1+num2)+"\r");
+		System.out.println("Sub : " + (num1-num2)+"\r");
+		System.out.println("Mul : " + (num1*num2)+"\r");
 		System.out.printf("div : " + "%.2f\n"+"\r",((double)num1/(double)num2));
 		
 	}
